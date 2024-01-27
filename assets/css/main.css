@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff;
+  min-width: 320px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+input,
+input:focus,
+textarea,
+textarea:focus,
+button,
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 1140px;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
